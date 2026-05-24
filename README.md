@@ -1,4 +1,4 @@
-Grounded DI LLC - "Precision doesn't guess. It traces." 
+# Grounded DI LLC - "Precision doesn't guess. It traces." 
 
 # VerdictBridge
 The first auditable, deterministic trial logic engine for legal professionals (civil litigation).
