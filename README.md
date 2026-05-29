@@ -2,7 +2,9 @@
 
 # VerdictBridge
 
-The first auditable, deterministic trial logic engine for legal professionals (civil litigation).
+VerdictBridge is an auditable litigation-review framework for organizing procedural posture, evidentiary gaps, causation pathways, and uncertainty boundaries.
+
+It does not decide cases, predict verdicts, replace counsel, or automate legal judgment. It helps humans inspect the record more clearly.
 
 ## VerdictBridge — Deterministic Trial Forecasting Engine
 
