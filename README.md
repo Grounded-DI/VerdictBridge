@@ -1,7 +1,5 @@
 # VerdictBridge
 
-# VerdictBridge
-
 ## What Can This Record Actually Support?
 
 **VerdictBridge is a litigation-record sufficiency and state-control system developed by Grounded DI LLC.**
