@@ -110,3 +110,11 @@ Grounded DI LLC · Mark S. Weinstein
 VerdictBridge, BriefWise, and Grounded DI are proprietary to Grounded DI LLC and may be protected by pending patent applications, copyright, trademark, contract, and other applicable rights. No license is granted by this README.
 
 © 2026 Grounded DI LLC.
+
+## Central benchmark collection
+
+[Browse Grounded DI's benchmark and evaluation index](https://github.com/Grounded-DI/Benchmarks-Cross-Domain/blob/main/BENCHMARK_INDEX.md).
+
+- [Preserved collection: verdictbridge-replay](https://github.com/Grounded-DI/Benchmarks-Cross-Domain/tree/main/benchmarks/verdictbridge-replay)
+
+The central entry collects the bounded synthetic replay artifacts and preserves their separate readiness and export states. This repository remains the canonical source for its own history and later corrections; the central collection is a dated public snapshot.
