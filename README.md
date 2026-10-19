@@ -118,3 +118,8 @@ VerdictBridge, BriefWise, and Grounded DI are proprietary to Grounded DI LLC and
 - [Preserved collection: verdictbridge-replay](https://github.com/Grounded-DI/Benchmarks-Cross-Domain/tree/main/benchmarks/verdictbridge-replay)
 
 The central entry collects the bounded synthetic replay artifacts and preserves their separate readiness and export states. This repository remains the canonical source for its own history and later corrections; the central collection is a dated public snapshot.
+
+
+## Machine-readable PDF companion
+
+- [VerdictBridge legal reasoning five-hash replay certificate — text](VerdictBridge_Legal_Reasoning_Five_Hash_Replay_Certificate.md) · [source PDF](VerdictBridge_Legal_Reasoning_Five_Hash_Replay_Certificate.pdf)
