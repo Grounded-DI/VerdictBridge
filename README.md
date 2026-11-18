@@ -19,16 +19,6 @@ This repository contains two separate synthetic records, supporting replay certi
 
 Supporting visuals are [`VerdictBridge_Runtime_Stack.jpg`](./VerdictBridge_Runtime_Stack.jpg), [`Contradiction_and_Verdict_Pressure_Architecture.PNG`](./Contradiction_and_Verdict_Pressure_Architecture.PNG), and [`Procedural_Integrity_and_Trial_Architecture_Matrix.PNG`](./Procedural_Integrity_and_Trial_Architecture_Matrix.PNG).
 
-## Proposition boundaries
-
-| Proposition | What this repository records |
-|---|---|
-| Model capability | The underlying model's general ability is not benchmarked here. |
-| Controlled execution | The supplied synthetic records show declared gate, state, and export paths for their specified inputs. |
-| Replay / provenance | The replay certificates record exact archive identity, internal hashes, serialization, and state-transition results for the named runs. |
-| Product status | The book and visuals are public demonstrations; the ZIPs are synthetic benchmark artifacts. |
-| External validation | Independent reproduction or legal review outside the supplied records remains **UNVERIFIED**. |
-
 ## What the Turner book demonstrates
 
 The 271-page book is a synthetic, public-facing defense-litigation demonstration involving collision facts, testimony, reconstruction opinions, comparative fault, medical causation, damages, exposure, settlement posture, procedural status, controlled sensitivity analysis, review status, and release control.
@@ -47,7 +37,7 @@ FilingReady: Not applicable or not yet determinable for a later filing
 Export: Held
 ```
 
-That is a controlled result, not a failed business outcome: useful analysis was retained without labeling it approved or ready for reliance.
+The held export preserves the analysis and its unresolved review state.
 
 ## Controlled replay record
 
@@ -62,28 +52,17 @@ The two ZIPs are a separate synthetic closed-world benchmark for `Lane v. Apex I
 - all listed gates passing except gates marked `NOT_ACTIVE` or `NOT_APPLICABLE`; and
 - `VERDICT_READY` with `export_authorized: true` in that synthetic benchmark.
 
-The benchmark's law is a closed-world input. The replay result therefore establishes control and artifact identity for that specified record; it does not establish general legal correctness, predictive validity, or permission to use the output in a real matter.
+The benchmark uses supplied law and facts. Its ready and export states apply to the Lane v. Apex package.
 
-The FastPath 5.6 certificate is another separate record. It documents three executions of one sealed `controlled_speed_branch_replay` input, all with SHA-256 `84ab1d149c18715b4f2c3646ab6469f00ea453770f7a0ff94738d42310b55f9d`. Its scope is that named test only; it does not establish universal determinism across other inputs, prompts, tools, environments, or runtime conditions.
+The FastPath 5.6 certificate is another separate record. It documents three executions of one sealed `controlled_speed_branch_replay` input, all with SHA-256 `84ab1d149c18715b4f2c3646ab6469f00ea453770f7a0ff94738d42310b55f9d`. The result applies to the sealed `controlled_speed_branch_replay` input.
 
 ## Technical significance
 
 VerdictBridge makes a useful distinction operational: a polished memo, a recalculated number, or a model output is not automatically ready for attorney reliance. The records preserve dependencies, contradiction handling, admissibility and procedural gates, replay identity, reviewer state, and export authorization as separate control points. This is valuable for defense-firm evaluation because a new fact can be traced to the conclusions it changes without silently rewriting unrelated parts of the case.
 
-## Scope and regulator-facing boundaries
+## Use of these records
 
-The Indiana Trucking / Turner book, its visuals, and the replay package are synthetic public-facing materials. They are not an actual case, client matter, legal opinion, claims-handling directive, reserve-setting instruction, coverage determination, settlement authority, product specification, or authorization for reliance.
-
-The repository does not claim:
-
-- a guaranteed verdict, settlement, motion, mediation, trial, or appellate result;
-- a statistical jury oracle or universal predictive accuracy;
-- that uncertainty can be eliminated from litigation;
-- that a closed-world benchmark's law is current law in any jurisdiction;
-- that the public visuals disclose the complete proprietary architecture; or
-- independent third-party validation of the system, legal conclusions, or business claims.
-
-The public visuals are conceptual explanations. They do not disclose proprietary prompts, source code, private schemas, internal thresholds, confidential client information, or complete routing logic. Attorney and specialist review remains required for real-world use.
+The Turner book and Lane v. Apex package use synthetic cases. The Turner export remains held, while the Lane v. Apex package records export authorization within its benchmark. Actual litigation analysis requires matter-specific evidence, current legal authority, and attorney review. The public visuals explain the architecture at a conceptual level.
 
 ## How to review
 
@@ -93,17 +72,13 @@ The public visuals are conceptual explanations. They do not disclose proprietary
 4. Read the [five-hash certificate](./VerdictBridge_Legal_Reasoning_Five_Hash_Replay_Certificate.pdf) and the [FastPath 5.6 certificate](./FastPath_5_6_Instant_Day_One_Canonical_Replay_Certificate.pdf) for their separate scopes.
 5. Use the [marketplace analysis](./VerdictBridge_What_Can_This_Record_Actually_Support_Marketplace_Analysis.pdf) and visuals for the public-facing product explanation.
 
-## Provenance
-
-The public repository state reviewed here is commit [`e74351a9ba7c11de44ae6b383337946825147d3c`](https://github.com/Grounded-DI/VerdictBridge/commit/e74351a9ba7c11de44ae6b383337946825147d3c). The replay certificate and ZIP hashes identify the bytes covered by those records; a hash establishes identity of the hashed bytes, not the substantive truth of every legal or factual statement displayed within them.
-
 ## Relationship to BriefWise
 
-VerdictBridge asks whether the present litigation record and analysis support the proposed litigation state. BriefWise asks whether a legal proposition is sufficiently supported, verified, and filing-eligible. They are complementary control points, not interchangeable certifications.
+VerdictBridge asks whether the present litigation record and analysis support the proposed litigation state. BriefWise asks whether a legal proposition is sufficiently supported, verified, and filing-eligible. Together they connect record sufficiency with authority review.
 
 ## Public status and contact
 
-**PUBLIC-FACING SYNTHETIC DEMONSTRATIONS · REPLAY ARTIFACTS PRESERVED · EXTERNAL VALIDATION UNVERIFIED**
+**Synthetic litigation demonstrations · replay artifacts and certificates**
 
 Grounded DI LLC · Mark S. Weinstein
 
